@@ -7,7 +7,6 @@
 body{
     width: 100%;
     height: 100vh;
-    overflow: hidden;
 }
 nav{
     width: 100%;
@@ -48,18 +47,63 @@ nav{
     color: skyblue;
     width: 100%;
 }
-section{
+.parte1{
     width: 100%;
-    height: 30vh;
+    height: 90vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+
+.titulo{
+    display: flex;
     align-items: center;
 }
-section .contenidoMain{
+.titulo h1{
+    margin: 20px;
+}
+section .parrafo p{
+    margin: 0 200px;
+}
+section .boton button{
+    margin: 20px;
+}
+.parte2{
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 100%;
+    background-color: aqua;
 }
-
+.parte2 .masProdcutos h2{
+    margin: 20px;
+}
+.parte2 .masProdcutos .scroll{
+    width: 100%;
+    height: 100px;
+    overflow-y: scroll;
+}
+.parte2 .masProdcutos p{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.parte2 .masProdcutos img{
+    display: flex;
+    justify-content: center;
+}
+.parte2 .SobreNosotros h2{
+    margin: 20px;
+}
+.parte2 .SobreNosotros p{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.parte2 .SobreNosotros img{
+    display: flex;
+    justify-content: center;
+}
