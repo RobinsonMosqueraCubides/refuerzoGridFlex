@@ -10,7 +10,7 @@ body{
 }
 nav{
     width: 100%;
-    height: 10vh;
+    height: 7vh;
     display: flex;
 }
 .contenedora{
@@ -22,7 +22,8 @@ nav{
 }
 .contenedora .logo img{
     margin-left: 20px;
-    width: 70px;
+    width: 50px;
+    height: 50px;
 }
 .contenedora .Menus a{
     color: skyblue;
@@ -54,21 +55,40 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: blueviolet;
+    background-image: url(/storage/image/principal1.jpeg);
+    background-size: contain;
 }
 
 .titulo{
     display: flex;
     align-items: center;
+
 }
 .titulo h1{
     margin: 20px;
+    color: white;
+    padding: auto;
+    filter: drop-shadow(-5px -5px 5px rgb(64, 42, 189));
+    background-color: rgba(64, 42, 189, 0.116);
+
 }
 section .parrafo p{
     margin: 0 200px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    filter: drop-shadow(-5px -5px 5px rgb(64, 42, 189));
+    background-color: rgba(64, 42, 189, 0.116);
 }
 section .boton button{
     margin: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
 }
 .parte2{
     width: 100%;
